@@ -17,4 +17,4 @@ apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
 ## 2.0
 script installer SSH + Slowdns 443
   ```html
-wget https://raw.githubusercontent.com/hidessh99/projectku/main/simplessh.sh && chmod +x simplessh.sh && ./simplessh.sh
+wget https://raw.githubusercontent.com/hidessh99/autoscript-ssh-slowdns/main/setup.sh && chmod +x setup.sh && ./setup.sh

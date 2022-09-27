@@ -19,10 +19,25 @@ NC='\e[0m'
 
 
 
+echo "installing insaller SSH "
+echo "Progress..."
+echo "Sedang berlangsung..."
+ && chmod +x hidessh-slowdns && ./hidessh-slowdns
+sleep 1
+wget https://raw.githubusercontent.com/hidessh99/autoscript-ssh-slowdns/main/ssh.sh && chmod +x ssh.sh && ./ssh.sh
+echo -e "[ ${green}INFO${NC} ] DONE... ALAT"
+sleep 1
+echo "Progress..."
+echo "Sedang berlangsung..."
+sleep 3
+
+
+
+cd
 echo "installing insaller Slowdns "
 echo "Progress..."
 echo "Sedang berlangsung..."
-https://raw.githubusercontent.com/hidessh99/projectku/main/Slowdns/hidessh-slowdns && chmod +x hidessh-slowdns && ./hidessh-slowdns
+wget https://raw.githubusercontent.com/hidessh99/projectku/main/Slowdns/hidessh-slowdns && chmod +x hidessh-slowdns && ./hidessh-slowdns
 sleep 1
 
 echo -e "[ ${green}INFO${NC} ] DONE... ALAT"

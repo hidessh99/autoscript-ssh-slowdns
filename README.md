@@ -20,7 +20,7 @@ wget https://raw.githubusercontent.com/hidessh99/autoscript-ssh-slowdns/main/set
 
    
 ### Setting cloudflare 
-  ```html 
+
   tambahan ip vps ke akun cloudflare kamu
   contohnya 
    
@@ -40,7 +40,7 @@ wget https://raw.githubusercontent.com/hidessh99/autoscript-ssh-slowdns/main/set
   
    NS slowdns-id    id.domain.com
    
-   ```  
+
    
    
    

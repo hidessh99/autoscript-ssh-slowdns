@@ -7,13 +7,12 @@ Auto Script Install All VPN Service
    
    
 ## Installation 
-## 1.
+
 Part 1: Update dan Upgrade
   ```html
 apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
 ```
   
-## 2.0
 script installer SSH + Slowdns 443
   ```html
 wget https://raw.githubusercontent.com/hidessh99/autoscript-ssh-slowdns/main/setup.sh && chmod +x setup.sh && ./setup.sh
@@ -21,7 +20,7 @@ wget https://raw.githubusercontent.com/hidessh99/autoscript-ssh-slowdns/main/set
 
    
 ### Setting cloudflare 
- 
+  ```html 
   tambahan ip vps ke akun cloudflare kamu
   contohnya 
    
@@ -41,13 +40,13 @@ wget https://raw.githubusercontent.com/hidessh99/autoscript-ssh-slowdns/main/set
   
    NS slowdns-id    id.domain.com
    
-   
+   ```  
    
    
    
 
 ### Os Supported
-
+  ```html
 • Debian 10 & 9
 
 • Ubuntu 18.04 & 20.04
@@ -87,6 +86,6 @@ wget https://raw.githubusercontent.com/hidessh99/autoscript-ssh-slowdns/main/set
 • Autoreboot On 17.00 GMT +7
 
 • Auto Delete Expired Account
-   
+     ```
    
    

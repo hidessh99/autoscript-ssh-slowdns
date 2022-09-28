@@ -20,27 +20,25 @@ wget https://raw.githubusercontent.com/hidessh99/autoscript-ssh-slowdns/main/set
 
    
 ## Setting cloudflare 
-
-  tambahan ip vps ke akun cloudflare kamu
-  contohnya 
+  ```html
+tambahan ip vps ke akun cloudflare kamu
+ contohnya 
    
-   settingan A recond DNS Clouflare 
-   A sub domain ip vps
+settingan A recond DNS Clouflare 
+A sub domain ip vps
    
-   Example
+Example
    
-   A  id   103.140.155.156
+A  id   103.140.155.156
+      
+settingan NS recond DNS Clouflare buat SlowDNS
    
-   
-   settingan NS recond DNS Clouflare buat SlowDNS
-   
-   NS  slowdns-subdomain suubdomain
+NS  slowdns-subdomain suubdomain
     
-   Example 
+Example 
   
-   NS slowdns-id    id.domain.com
-   
-
+NS slowdns-id    id.domain.com
+...   
    
    
    

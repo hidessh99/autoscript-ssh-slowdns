@@ -19,24 +19,18 @@ wget https://raw.githubusercontent.com/hidessh99/autoscript-ssh-slowdns/main/set
 ``` 
 
    
-## Setting cloudflare 
+## Setting DNS Recond cloudflare 
+   
+•settingan A recond DNS Clouflare 
 
-tambahan ip vps ke akun cloudflare kamu
- contohnya 
-   
-settingan A recond DNS Clouflare 
-A sub domain ip vps
-   
+A sub domain ip vps   
 Example
-   
 A  id   103.140.155.156
       
-settingan NS recond DNS Clouflare buat SlowDNS
+• settingan NS recond DNS Clouflare buat SlowDNS
    
 NS  slowdns-subdomain suubdomain
-    
 Example 
-  
 NS slowdns-id    id.domain.com
    
    
@@ -45,7 +39,6 @@ NS slowdns-id    id.domain.com
 ## Os Supported
   ```html
 • Debian 10 & 9
-
 • Ubuntu 18.04 & 20.04
 
 # Service & Port
@@ -64,24 +57,17 @@ NS slowdns-id    id.domain.com
 • SLOWDNS OPENSSH         : ALL Port ( 22, 443, 44)
 • Public Key              : 7fbd1f8aa0abfe15a7903e837f78aba39cf61d36f183bd604daa2fe4ef3b7b59
   
-   
 
  ### Server Information & Other Features
 
 • Timezone                : Asia/Jakarta (GMT +7)
-
 • Fail2Ban                : [ON]
-
 • Dflate                  : [ON]
-
 • IPtables                : [ON]
-
 • Auto-Reboot             : [ON]
 
 • Autoreboot On 05.00 GMT +7
-
 • Autoreboot On 17.00 GMT +7
-
 • Auto Delete Expired Account
  ```
   

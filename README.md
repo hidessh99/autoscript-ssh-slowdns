@@ -12,12 +12,13 @@ Part 1: Update dan Upgrade
   ```html
 apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
 ```
+   
 ## Auto installer 
   
 script installer SSH + Slowdns 443
   ```html
 wget https://raw.githubusercontent.com/hidessh99/autoscript-ssh-slowdns/main/setup.sh && chmod +x setup.sh && ./setup.sh
-...   
+``` 
 
    
 ## Setting cloudflare 

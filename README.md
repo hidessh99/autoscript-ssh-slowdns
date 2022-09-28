@@ -1,8 +1,6 @@
 <h2 align="center">
-Auto Script Install All VPN Service
+Auto Script Install SSH + SlowDNS
 
-#info for you
-   slow dns membuat openvpn eror but wireguard working and lt2p working
    
    
    

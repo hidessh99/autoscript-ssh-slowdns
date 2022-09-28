@@ -78,12 +78,10 @@ NS slowdns-id    id.domain.com
 
 • Auto-Reboot             : [ON]
 
-
-
 • Autoreboot On 05.00 GMT +7
 
 • Autoreboot On 17.00 GMT +7
 
 • Auto Delete Expired Account
-     ```
+ ```
   

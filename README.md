@@ -19,7 +19,7 @@ wget https://raw.githubusercontent.com/hidessh99/autoscript-ssh-slowdns/main/set
 ...   
 
    
-### Setting cloudflare 
+## Setting cloudflare 
 
   tambahan ip vps ke akun cloudflare kamu
   contohnya 
@@ -45,7 +45,7 @@ wget https://raw.githubusercontent.com/hidessh99/autoscript-ssh-slowdns/main/set
    
    
 
-### Os Supported
+## Os Supported
   ```html
 • Debian 10 & 9
 
@@ -87,5 +87,4 @@ wget https://raw.githubusercontent.com/hidessh99/autoscript-ssh-slowdns/main/set
 
 • Auto Delete Expired Account
      ```
-   
-   
+  

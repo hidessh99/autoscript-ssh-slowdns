@@ -12,6 +12,7 @@ Part 1: Update dan Upgrade
   ```html
 apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
 ```
+## Auto installer 
   
 script installer SSH + Slowdns 443
   ```html
@@ -20,7 +21,7 @@ wget https://raw.githubusercontent.com/hidessh99/autoscript-ssh-slowdns/main/set
 
    
 ## Setting cloudflare 
-  ```html
+
 tambahan ip vps ke akun cloudflare kamu
  contohnya 
    
@@ -38,7 +39,6 @@ NS  slowdns-subdomain suubdomain
 Example 
   
 NS slowdns-id    id.domain.com
-...   
    
    
    

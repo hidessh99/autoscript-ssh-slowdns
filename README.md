@@ -62,7 +62,9 @@ NS slowdns-id    id.domain.com
 • OHP SSH                 : 8181
 • OHP Dropbear            : 8282
 • SLOWDNS OPENSSH         : ALL Port ( 22, 443, 44)
-
+• Public Key              : 7fbd1f8aa0abfe15a7903e837f78aba39cf61d36f183bd604daa2fe4ef3b7b59
+  
+   
 
  ### Server Information & Other Features
 

@@ -5,8 +5,10 @@
 
 
 #setting IPtables
-#iptables -I INPUT -p udp --dport 5300 -j ACCEPT
-#iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300
+iptables -I INPUT -p udp --dport 5300 -j ACCEPT
+iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300
+netfilter-persistent save
+netfilter-persistent reload
 
 cd
 #delete directory

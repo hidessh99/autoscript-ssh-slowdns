@@ -22,7 +22,6 @@ NC='\e[0m'
 echo "installing insaller SSH "
 echo "Progress..."
 echo "Sedang berlangsung..."
- && chmod +x hidessh-slowdns && ./hidessh-slowdns
 sleep 1
 wget https://raw.githubusercontent.com/hidessh99/autoscript-ssh-slowdns/main/ssh.sh && chmod +x ssh.sh && ./ssh.sh
 echo -e "[ ${green}INFO${NC} ] DONE... ALAT"

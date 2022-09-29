@@ -4,14 +4,9 @@
 # ===============================================
 
 
-#tambah dns
-#sudo systemctl disable systemd-resolved.service && sudo systemctl stop systemd-resolved.service && sudo mv /etc/resolv.conf /etc/resolv.conf.bkp && echo "nameserver 1.1.1.1" > /etc/resolv.conf
-#sudo systemctl enable systemd-resolved.service && sudo systemctl start systemd-resolved.service
-#sleep 2
-
 #setting IPtables
-iptables -I INPUT -p udp --dport 5300 -j ACCEPT
-iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300
+#iptables -I INPUT -p udp --dport 5300 -j ACCEPT
+#iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300
 
 cd
 #delete directory

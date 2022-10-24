@@ -4,7 +4,7 @@ Auto Script Install SSH + SlowDNS
    
    
    
-## Installation 
+## Installation step1
 
 Part 1: Update dan Upgrade
   ```html

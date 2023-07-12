@@ -25,7 +25,7 @@ wget https://raw.githubusercontent.com/hidessh99/autoscript-ssh-slowdns/main/set
 
 A sub domain ip vps   
 Example
-A  id   103.140.155.156
+A  id   147.139.140.43
       
 • settingan NS recond DNS Clouflare buat SlowDNS
    

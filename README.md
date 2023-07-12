@@ -15,7 +15,7 @@ apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
   
 script installer SSH + Slowdns 443
   ```html
-wget https://raw.githubusercontent.com/hidessh99/autoscript-ssh-slowdns/main/setup.sh && chmod +x setup.sh && ./setup.sh
+wget https://raw.githubusercontent.com/Absorwae/autoscript-ssh-slowdns/main/setup.sh && chmod +x setup.sh && ./setup.sh
 ``` 
 
    
